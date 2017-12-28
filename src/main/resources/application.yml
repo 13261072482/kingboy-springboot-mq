@@ -1,3 +1,6 @@
+server:
+  port: 8080
+
 spring:
   application:
     name: kingboy-springboot-mq
@@ -6,6 +9,3 @@ spring:
     port: 5672
     username: guest
     password: guest
-
-server:
-  port: 8080
