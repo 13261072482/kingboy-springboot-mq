@@ -20,13 +20,18 @@ sourceCompatibility = 1.8
 
 repositories {
 	mavenCentral()
+	maven {
+		url "http://jenkins.maxrocky.com:8080/maven/content/repositories/thirdparty"
+	}
 }
 
+ext {
+	commonVersion='1.0'
+}
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.boot:spring-boot-starter-amqp')
+	compile("com.kingboy:common:$commonVersion")
 	testCompile('org.springframework.boot:spring-boot-starter-test')
-
-	compile project(":common")
 }
