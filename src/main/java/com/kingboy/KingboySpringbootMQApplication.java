@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @EnableRabbit
 public class KingboySpringbootMQApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(KingboySpringbootMQApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(KingboySpringbootMQApplication.class, args);
+    }
 }
