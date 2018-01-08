@@ -1,3 +1,7 @@
+### 安装教程
+
+[CentOS6.x与7.x安装rabbitMQ](readme/install.md)
+
 ### 简单版教程
 
 依赖
