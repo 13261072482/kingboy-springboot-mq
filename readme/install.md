@@ -17,7 +17,7 @@ wget –no-cache http://www.convirture.com/repos/definitions/rhel/6.x/convirt.re
 yum install socat.x86_64
 ```
 
-1.安装erlang(rabbitmq安装需要依赖)
+2.安装erlang(rabbitmq安装需要依赖)
 ```
 #获取官方安装脚本并执行
 curl -s https://packagecloud.io/install/repositories/rabbitmq/erlang/script.rpm.sh | sudo bash
@@ -27,7 +27,7 @@ yum install erlang.x86_64
 
 > 如果上面的地址失效，请[点击此处](https://packagecloud.io/rabbitmq/erlang/install#bash-rpm)查看最新地址
 
-2.安装rabbitmq
+3.安装rabbitmq
 ```
 #获取官方安装脚本并执行
 curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.rpm.sh | sudo bash
